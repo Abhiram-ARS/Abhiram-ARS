@@ -2,10 +2,15 @@
 🚀 Cyber Security & Software Development Enthusiast.
 
  🔒 | Cyber Security ;
+
  🖥️ | Python | C | Java | Linux | NodeJS ;
+
  🎮 | Gamer | Game Development ;
+
  📚 | Database management ;
+
  🎨 | GUI Programming ;
+
 
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development. My technical expertise includes:
 
