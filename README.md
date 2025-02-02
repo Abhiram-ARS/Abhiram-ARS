@@ -1,16 +1,15 @@
-### Abhiram S
 
 ## Cyber Security & Software Development Enthusiast.
 
- 🔒 | Cyber Security ;
+# 🔒 | Cyber Security ;
 
- 🖥️ | Python | C | Java | Linux | NodeJS ;
+# 🖥️ | Python | C | Java | Linux | NodeJS ;
 
- 🎮 | Gamer | Game Development ;
+# 🎮 | Gamer | Game Development ;
 
- 📚 | Database management ;
+# 📚 | Database management ;
 
- 🎨 | GUI Programming ;
+# 🎨 | GUI Programming ;
 
 
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development. My technical expertise includes:
