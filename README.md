@@ -1,5 +1,4 @@
-
-🚀 Cyber Security & Software Development Enthusiast.
+Cyber Security & Software Development Enthusiast.
 
  🔒 | Cyber Security ;
 
@@ -26,7 +25,6 @@ I'm a passionate cyber security student with a strong foundation in programming,
 
 I have experience in organizing cyber security events, game competitions, and workshops. I'm also actively involved in e-sports networking and infrastructure management. Always eager to explore new technologies and collaborate on innovative projects!
 
-📌 Let's Connect & Build! 🚀
 
 
 <!---
