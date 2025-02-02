@@ -11,7 +11,8 @@ I'm a passionate cyber security student with a strong foundation in programming,
 
 🔹 Programming: Python (including Tkinter for GUI development, Website Backend and security scripting), C,Java and NodeJS
 
-🔹 Cyber Security: Network management, security principles, and vulnerability analysis (OWASP Top 10)
+🔹 Cyber Security: Network management, security principles, and vulnerability analysis (OWASP Top 10) and various security tools.
+
 🔹 Game Development: Experience in Scratch (2D games) and game event organization
 
 🔹 Linux: Proficient in using and managing Linux environments
