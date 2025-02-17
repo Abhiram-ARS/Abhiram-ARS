@@ -1,5 +1,5 @@
 
-## Cyber Security & Software Development Enthusiast.
+##  Enthusiastic in Cyber Security, Forensics and Security Tool Development.
 
  🔒 | Cyber Security ;
 
