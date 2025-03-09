@@ -1,7 +1,7 @@
 
 #  Enthusiastic in Cyber Security, Forensics and Security Tool Development.
 
-**🔒 | Cyber Security**
+🔒 | _Cyber Security_
  - Security Reserch
  - Digital Forensics
 
