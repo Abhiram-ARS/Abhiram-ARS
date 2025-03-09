@@ -2,8 +2,12 @@
 ##  Enthusiastic in Cyber Security, Forensics and Security Tool Development.
 
 ### 🔒 | Cyber Security
- - Security Reserch
+ - Security & Vulnerability Resercher
+ - Linux
+ - Scripting for security
  - Digital Forensics
+ - Networking
+ - Security Tools
 
 ### 🖥️ | Programming
  - Python
