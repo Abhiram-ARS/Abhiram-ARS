@@ -1,11 +1,11 @@
 
 #  Enthusiastic in Cyber Security, Forensics and Security Tool Development.
 
-🔒 | _Cyber Security_
+### 🔒 | Cyber Security
  - Security Reserch
  - Digital Forensics
 
-**🖥️ | Programming**
+### 🖥️ | Programming
  - Python
  - C
  - Java
