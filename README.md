@@ -1,7 +1,9 @@
 
 ##  Enthusiastic in Cyber Security, Forensics and Security Tool Development.
 
- 🔒 | Cyber Security | Security Reserch | Digital Forensics ;
+ 🔒 | Cyber Security 
+     - Security Reserch 
+     - Digital Forensics
 
  🖥️ | Python | C | Java | Linux | NodeJS ;
 
