@@ -10,13 +10,16 @@
  - C
  - Java
  - Linux
- - NodeJS ;
+ - NodeJS 
 
- 🎮 | Gamer | Game Development ;
+### 📚 | Database management  
+- SQL
+- Google Sheets for Web Support
+- Cloud Database
+ 
+### 🎮 | Gamer | Game Development ;
 
- 📚 | Database management ;
-
- 🎨 | GUI Programming ;
+### 🎨 | GUI Programming ;
 
 
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development. My technical expertise includes:
