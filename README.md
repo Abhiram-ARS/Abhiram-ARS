@@ -5,7 +5,7 @@
  - Security & Vulnerability Resercher | Linux | Scripting for security | Digital Forensics | Networking | Security Tools ;
 
 ### 🖥️ | Programming
- - Python | C | Java | Linux | NodeJS ;
+ - Python | C | Java | Bash | NodeJS ;
 
 ### 📚 | Database management  
 - SQL
