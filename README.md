@@ -12,9 +12,6 @@
  
 ### 🎮 | Gamer | Game Development ;
 
-### 🎨 | GUI Programming ;
-
-
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development. My technical expertise includes:
 
 🔹 Programming: Python (including Tkinter for GUI development, Website Backend and security scripting), C,Java and NodeJS
