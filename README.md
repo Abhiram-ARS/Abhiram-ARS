@@ -8,9 +8,7 @@
  - Python | C | Java | Bash | NodeJS ;
 
 ### 📚 | Database management  
-- SQL
-- Google Sheets for Web Support
-- Cloud Database
+- SQL | Google Sheets for Web Support | Cloud Database ;
  
 ### 🎮 | Gamer | Game Development ;
 
