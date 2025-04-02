@@ -1,6 +1,6 @@
 # **ABHIRAM S**  
 
-I'm a passionate cyber security student with a strong foundation in programming, networking, and software development. My technical expertise includes:
+I'm a passionate cyber security student with a strong foundation in programming, networking, and software development.
 
 ***************************************************************************************************
 ## *_Education:_*  
