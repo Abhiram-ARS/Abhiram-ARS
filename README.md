@@ -3,10 +3,10 @@
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development.
 
 ***************************************************************************************************
-## *_Education:_*  
+## *_Education:-_*  
 - BTech in Computer Science and Engineering with **Cyber Security** @ Ilahia College of Engineering and Technology.   
 ***************************************************************************************************
-## *_Programming & Technical Skills:_*  
+## *_Programming & Technical Skills:-_*  
 
 #### 🖥️ | **Programming:** <br>
 Python; C; Java; NodeJS;
@@ -27,3 +27,4 @@ Scratch; game-Controller;
 problem-solving; algorithmic_challenges; Cryptography;
 
 ***************************************************************************************************
+## *_CERTIFICATES:-_*  
