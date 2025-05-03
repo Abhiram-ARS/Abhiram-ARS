@@ -21,7 +21,7 @@ Linux_architectecture; Linux_command-based_interface; Bash_Scripting;
 SQL; Google_Sheets_for_Web_Support; Cloud_Database;
 
 #### 🎮 | **Game Development & Gamer:**  <br>
-Scratch; game-Controller;
+Scratch; game-Manager;
 
 #### ⚙️ | **Algorithm Enthusiast:**  <br>
 problem-solving; algorithmic_challenges; Cryptography;
