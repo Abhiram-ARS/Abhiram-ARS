@@ -12,7 +12,7 @@ I'm a passionate cyber security student with a strong foundation in programming,
 Python; C; Java; NodeJS;
 
 #### 🔒 | **Cyber Security:**  <br>
-Network_management; security_principles; vulnerability_analysis; security_tools.
+Network_management; OWASP; vulnerability_analysis; security_tools.
 
 #### 🐧 | **Linux:**  <br>
 Linux_architectecture; Linux_command-based_interface; Bash_Scripting;
