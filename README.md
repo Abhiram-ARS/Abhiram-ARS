@@ -15,7 +15,7 @@ Python; C; Java; NodeJS;
 Network_management; OWASP; vulnerability_analysis; security_tools.
 
 #### 🐧 | **Linux:**  <br>
-Linux_architectecture; Linux_command-based_interface; Bash_Scripting;
+Linux_architectecture; Linux_commands; Bash_Scripting;
 
 #### 📚 | **Database management:**  <br>
 SQL; Google_Sheets_for_Web_Support; Cloud_Database;
