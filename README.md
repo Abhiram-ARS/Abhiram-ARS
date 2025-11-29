@@ -35,7 +35,7 @@ I'm a passionate cyber security student with a strong foundation in programming,
 ## *_Certifications :-_*  
 ## 🎓 Certifications
 
-| <img src="images/security_plus.png" width="110"> | 
+| <img src="/images/Certificates/IntroToCy.png" width="110"> | 
 |--------------------------------------------------|
 | **a**                            |
 
