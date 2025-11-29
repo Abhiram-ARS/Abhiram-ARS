@@ -1,14 +1,10 @@
 # **ABHIRAM S**  
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-Cybersecurity%20Engineer-8e44ad?style=for-the-badge&logo=github" alt="role"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-EDR%20%7C%20Malware%20Analysis-5b21b6?style=for-the-badge" alt="focus"/>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Location-India-5a189a?style=for-the-badge" alt="location"/>
-</p>
+
+<img src="https://img.shields.io/badge/Role-Cybersecurity%20Engineer-8e44ad?style=for-the-badge&logo=github" alt="role"/>
+<img src="https://img.shields.io/badge/Focus-EDR%20%7C%20Malware%20Analysis-5b21b6?style=for-the-badge" alt="focus"/>
+<img src="https://img.shields.io/badge/Location-India-5a189a?style=for-the-badge" alt="location"/>
+
 
 I'm a passionate cyber security student with a strong foundation in programming, networking, and software development.
 
