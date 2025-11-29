@@ -35,20 +35,20 @@ I'm a passionate cyber security student with a strong foundation in programming,
 ## *_Certifications :-_*  
 ## 🎓 Certifications
 
-| <img src="/images/Certificates/IntroToCy.png" width="110"> | 
+| <img src="/images/Certificates/IntroToCy.png" width="600"> | 
 |--------------------------------------------------|
-| **a**                            |
+| **Introduction To Cybersecurity,<br>CISCO Networking Academy** |
 
-
+| <img src="/images/Certificates/sqlInjectAttacks1.png" width="600"> | 
+|--------------------------------------------------|
+| **SQL Injection Attacks,<br>EC-Council Learning** |
 ***
 
 ## *🎓Badges :-*
 
-| <img src="images/security_plus.png" width="110"> | <img src="images/ceh.png" width="110"> | <img src="images/ceh.png" width="110"> |
+| <img src="/images/badges/introToCy.png" width="110"> | <img src="/images/badges/linuxTHM.png" width="110"> | <img src="/images/badges/hackRank_py.png" width="110"> |
 |--------------------------------------------------|-----------------------------------------|-----------------------------------------|
-| **a**                            | **b**      |**b**      |
+| Introduction To Cybersecurity,<br>CISCO Networking Academy| _catlinux.txt_<br>Try Hack Me|Python⭐⭐⭐⭐<br>Hackerranka       |
 
-| <img src="images/security_plus.png" width="110"> | <img src="images/ceh.png" width="110"> | <img src="images/ceh.png" width="110"> |
-|--------------------------------------------------|-----------------------------------------|-----------------------------------------|
-| **a**                            | **b**      |**b**      |
+
 
