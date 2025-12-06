@@ -50,5 +50,7 @@
 |--------------------------------------------------|-----------------------------------------|-----------------------------------------|
 | Introduction To Cybersecurity,<br>CISCO Networking Academy| _catlinux.txt_<br>Try Hack Me|Python⭐⭐⭐⭐<br>Hackerranka       |
 
-
+| <img src="/images/badges/start_blockchain_nasscom.png" width="110"> |   |   |
+|--------------------------------------------------|-----------------------------------------|-----------------------------------------|
+| Starting with Blockchain,<br>Future Skills Prime|  |        |
 
