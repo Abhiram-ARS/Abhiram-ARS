@@ -35,6 +35,10 @@
 ## *_Certifications :-_*  
 ## 🎓 Certifications
 
+| <img src="/images/Certificates/NetworkingBasics.jpg" width="600"> | 
+|--------------------------------------------------|
+| **SNetworking Basics,<br>CISCO Networking Academy** |
+
 | <img src="/images/Certificates/IntroToCy.png" width="600"> | 
 |--------------------------------------------------|
 | **Introduction To Cybersecurity,<br>CISCO Networking Academy** |
@@ -42,7 +46,11 @@
 | <img src="/images/Certificates/sqlInjectAttacks1.png" width="600"> | 
 |--------------------------------------------------|
 | **SQL Injection Attacks,<br>EC-Council Learning** |
+
+
 ***
+
+
 
 ## *🎓Badges :-*
 
