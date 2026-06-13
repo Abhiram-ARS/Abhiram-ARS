@@ -2,7 +2,7 @@
 
 
 <img src="https://img.shields.io/badge/Role-Cybersecurity%20Engineer-8e44ad?style=for-the-badge&logo=github" alt="role"/>
-<img src="https://img.shields.io/badge/Focus-Blockchain%20Developer%20%7C%20Data%20Security-5b21b6?style=for-the-badge" alt="focus"/>
+<img src="https://img.shields.io/badge/Focus-Blockchain%20%7C%20Cryptography-5b21b6?style=for-the-badge" alt="focus"/>
 
 
 
