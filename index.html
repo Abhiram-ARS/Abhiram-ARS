@@ -94,6 +94,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            padding: 40px 10px 10px 10px; /* top right bottom left */
         }
 
         .intro-content {
@@ -114,14 +115,15 @@
         }
 
         .bio-text {
+            text-align: justify;
             max-width: 700px;
             font-size: 1.1rem;
             margin-bottom: 30px;
         }
         
         .profile-photo {
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
             border-radius: 50%;
             border: 3px solid var(--accent-color);
             box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
@@ -134,12 +136,12 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: grayscale(80%) contrast(1.2);
+            filter: grayscale(0%) contrast(100%);
             transition: filter 0.5s;
         }
 
         .profile-photo img:hover {
-             filter: grayscale(0%) contrast(1);
+             filter: grayscale(20%) contrast(1);
         }
 
         .profile-photo::before {
@@ -490,7 +492,7 @@
 <body>
 
     <header class="navbar-component">
-        <div class="logo">Abhiram S | Security Engineer ;</div>
+        <div class="logo">ABHIRAM S | Security Engineer ;</div>
         <nav>
             <a href="#intro" class="nav-link active">01. Intro</a>
             <a href="#skills" class="nav-link">02. Skills</a>
@@ -503,7 +505,8 @@
     <main>
         <section id="intro" class="section-container hero-component">
             <p class="terminal-prompt">&gt; Cyber_Security_Engineer ;</p>
-            <h1>Abhiram S</h1>
+            <h1>ABHIRAM S</h1>
+            
             
             <div class="intro-content">
                 <div class="bio-area">
@@ -518,34 +521,36 @@
                     <div class="social-links">
                         <a href="https://github.com/Abhiram-ARS" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/abhiram-s-517b38281/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://raw.githubusercontent.com/Abhiram-ARS/Abhiram-ARS/main/Resume/ARS_Resume.pdf" target="_blank" aria-label="Resume"><i class="fas fa-address-card"></i></a>
                     </div>
                 </div>
 
                 <div class="profile-photo">
-                    <img src="https://media.licdn.com/dms/image/v2/D5603AQGmXluAbJeT4w/profile-displayphoto-crop_800_800/B56ZhWlz1mH0AQ-/0/1753799409727?e=1762387200&v=beta&t=KDAmPmCL3y5gxAf8vDrgsO3DCiS0iIpRxFliYqZjCRs" alt="Your Professional Photo">
+                    <img src="web_data/ars6.png" alt="Photo">
                 </div>
             </div>
         </section>
-
-        
 
         <section id="skills" class="section-container skills-grid">
             
             <div class="skill-card">
                 <i class="fas fa-terminal"></i>
-                <h3>Tools & Platforms</h3>
-                <p>Nmap, Wireshark, Metasploit, Burp Suite, SIEM (Splunk), Docker, Kubernetes.</p>
+                <h3>Tools & Technologies</h3>
+                <p>NMap, Wireshark; Burp Suite; Metasploit; Splunk; Autopsy; Ghidra; ESP32;</p>
             </div>
-            <div class="skill-card">
-                <i class="fas fa-cloud"></i>
-                <h3>Cloud Security</h3>
-                <p>AWS Security Hub, IAM, VPC Hardening, Azure Security Center, Infrastructure as Code (Terraform).</p>
-            </div>
+
             <div class="skill-card">
                 <i class="fas fa-code"></i>
                 <h3>Scripting & Analysis</h3>
-                <p>Python (Automation), Bash, PowerShell, Log Analysis, Regex.</p>
+                <p>Python; C; Java; Bash; PowerShell; Solidity; SQL;</p>
             </div>
+
+            <div class="skill-card">
+                <i class="fas fa-globe"></i>
+                <h3>Network Security</h3>
+                <p>Network Protocols; Network Administration; Network Devices; Website Security;</p>
+            </div>
+            
         </section>
 
         
