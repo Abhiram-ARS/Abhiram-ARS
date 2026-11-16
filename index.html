@@ -33,6 +33,37 @@
             scroll-behavior: smooth;
         }
 
+        .site-brand {
+            padding: 15px 50px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            color: var(--accent-color);
+            font: 700 1.4rem var(--font-mono);
+        }
+
+        .site-brand .social-links {
+            margin: 0;
+            display: flex;
+            gap: 18px;
+        }
+
+        .site-brand .social-links a {
+            margin: 0;
+            font-size: 1.35rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .site-brand .social-label {
+            font: 400 0.85rem var(--font-mono);
+        }
+
         /* --- 1. Navbar Component Styling (UPDATED NAV LINKS) --- */
         .navbar-component {
             display: flex;
@@ -536,6 +567,13 @@
 
         /* --- Responsive Design --- */
         @media (max-width: 900px) {
+            .site-brand {
+                padding: 15px 20px;
+                font-size: 1.1rem;
+            }
+            .site-brand .social-links {
+                gap: 12px;
+            }
             .intro-content {
                 flex-direction: column;
                 gap: 30px;
@@ -568,20 +606,20 @@
     </style>
 </head>
 <body>
-
-    <header class="navbar-component">
-        <div class="logo">ABHIRAM S | Security Engineer ;</div>
-        <nav>
-            <a href="#intro" class="nav-link active">01. Intro</a>
-            <a href="#skills" class="nav-link">02. Skills</a>
-            <a href="#experience" class="nav-link">03. Experience</a>
-            <a href="#education" class="nav-link">04. Education</a>
-            <a href="#education" class="nav-link">04. Education</a>
-            <a href="#projects" class="nav-link">05. Projects</a>
-            <a href="#certs" class="nav-link">06. Certs</a>
-        </nav>
+    <header class="site-brand">
+        <span>ABHIRAM S | Security Engineer;</span>
+        <div class="social-links">
+            <a href="https://github.com/Abhiram-ARS" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+                <span class="social-label">GitHub</span></a>
+            <a href="https://www.linkedin.com/in/abhiram-s-517b38281/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+                <span class="social-label">LinkedIn</span></a>
+            <a href="https://raw.githubusercontent.com/Abhiram-ARS/Abhiram-ARS/main/Resume/ARS_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+                <i class="fas fa-address-card"></i>
+                <span class="social-label">Resume</span></a>
+        </div>
     </header>
-
     <main>
         <section id="intro" class="section-container hero-component">
             <p class="terminal-prompt">&gt; Cyber_Security_Engineer ;</p>
@@ -591,18 +629,9 @@
             <div class="intro-content">
                 <div class="bio-area">
                     <p class="bio-text">
-                        I'm deeply passionate about international relations and diplomacy, especially in the context of cyber diplomacy and cyber warfare. The digital 
-                        realm has become a pivotal arena for global diplomacy, where issues like cyberattacks and data security shape international relations. 
-                        I'm particularly intrigued by the ethical aspects of hacking, the strategic implications of cyber warfare, and the role of cryptography in 
-                        securing digital communications of national importance. This passion drives me to explore and contribute more to the ever-evolving field of 
-                        cyber security and keep posted on geopolitics.
+                        I am passionate about Cybersecurity, Scientific Research, and Emerging Technologies, with interests in Network Security, Ethical Hacking, AI Security, Cyber Warfare, Cyber Diplomacy, International Relations, and Geopolitics. I enjoy exploring how technology shapes security at both technical and strategic levels, while continuously strengthening my skills in research methodology, critical analysis, experimentation, and scientific communication. I’m particularly interested in understanding emerging security challenges, investigating meaningful research problems, and developing practical, evidence-based solutions. I also enjoy learning, collaborating, presenting ideas, and contributing to the cybersecurity community.
                     </p>
                     <a href="#projects" class="cta-button">Projects</a>
-                    <div class="social-links">
-                        <a href="https://github.com/Abhiram-ARS" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/abhiram-s-517b38281/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://raw.githubusercontent.com/Abhiram-ARS/Abhiram-ARS/main/Resume/ARS_Resume.pdf" target="_blank" aria-label="Resume"><i class="fas fa-address-card"></i></a>
-                    </div>
                 </div>
 
                 <div class="profile-photo">
@@ -636,7 +665,7 @@
         <section id="experience" class="section-container">
             <h2>&lt;Experience /&gt;</h2>
             <article class="experience-card">
-                <span class="experience-period">June 2026 — July 2024</span>
+                <span class="experience-period">June 2026 — July 2026</span>
                 <h3>Fincrime Analysis Intern</h3>
                 <p>Place: Cyber Crime Police Station, Ernakulam Rural</p>
                 <p>Organization: Kerala Police</p>
@@ -671,44 +700,71 @@
                     <img class="project-preview" src="web_data/projects/educredchain.svg" alt="Blockchain credential verification illustration">
                     <div>
                         <h3>[01] EduCredChain</h3>
-                        <p>// EduCredChain is a secure and tamper-resistant educational credential verification system that integrates Blockchain technology with Public Key Infrastructure (PKI) to prevent certificate forgery and enable reliable verification.
+                        <p>// EduCredChain is a secure and tamper-resistant educational credential verification system that integrates Blockchain technology with 
+                            Public Key Infrastructure (PKI) to prevent certificate forgery and enable reliable verification.
                         </p>
-                        <a href="https://github.com/Abhiram-ARS/EduCredChain" target="_blank" class="project-link">View Repo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Abhiram-ARS/EduCredChain" target="_blank" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-                
+
                 <div class="project-item">
                     <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
                     <div>
-                        <h3>[02] Password Based File Encryption Decryption System : PB-FED</h3>
+                        <h3>[02] Wi-Fi Honey-Pot Simulator</h3>
+                        <p>// An ESP32 based project developed to demonstrate the security risks associated with rogue Wi-Fi access points and Evil Twin attacks. The project 
+                            simulates a public Wi-Fi hotspot environment, demonstrating how an unfamiliar access point can attract client devices and interact with them through 
+                            a captive portal.
+                        </p>
+                        <a href="https://medium.com/@abhiram--ars/building-wi-fi-evil-twin-honeypot-simulation-cd1d4d9be975?sharedUserId=abhiram--ars" target="_blank" class="project-link">View Documentation<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-item">
+                    <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
+                    <div>
+                        <h3>[03] Password Based File Encryption Decryption System : PB-FED</h3>
                         <p>// PB-FED is a Python-based GUI application designed for the secure encryption and decryption of text, image, and binary files using 
                             password-derived cryptographic keys. It provides a user-friendly graphical interface using Tkinter, making it accessible to both technical 
                             and non-technical users for protecting sensitive data.
                         </p>
-                        <a href="https://github.com/Abhiram-ARS/PB-FED" target="_blank" class="project-link">View Repo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Abhiram-ARS/PB-FED" target="_blank" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
+
+                <div class="project-item">
+                    <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
+                    <div>
+                        <h3>[04] CDR-IED (Call Detail Record Interpretation and Examination Dashboard)</h3>
+                        <p>// CDR-IED is a digital forensic application designed to simplify Call Detail Record analysis by converting raw communication data into meaningful 
+                            insights through advanced filtering, contact analysis, IMEI/IMSI correlation, timeline analysis, and interactive visualizations. This project provided 
+                            practical experience in Digital Forensics while exploring technology-driven solutions for law enforcement investigations.
+                        </p>
+                        <a href="https://github.com/Abhiram-ARS/CDR-IED" target="_blank" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                
                 
                 <div class="project-item">
                     <img class="project-preview" src="web_data/projects/webhmd.svg" alt="Website integrity and hash verification illustration">
                     <div>
-                        <h3>[03] Website Hashing for Modification Detection : Web-HMD</h3>
+                        <h3>[05] Website Hashing for Modification Detection : Web-HMD</h3>
                         <p>// Website Hashing for Modification Detection is a lightweight and practical tool developed to help users detect unauthorized or unexpected 
                             changes to web pages. This tool is especially useful for web developers, cybersecurity professionals, and educators who want to ensure the 
                             integrity of a website over time.
                         </p>
-                        <a href="https://github.com/Abhiram-ARS/Web-HMD" target="_blank" class="project-link">View Repo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Abhiram-ARS/Web-HMD" target="_blank" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
 
                 <div class="project-item">
                     <img class="project-preview" src="web_data/projects/qrtool.svg" alt="QR code generation illustration">
                     <div>
-                        <h3>[04] QR-Code Tool</h3>
+                        <h3>[06] QR-Code Tool</h3>
                         <p>// This is a simple Bash script that allows users to generate QR codes from any text input using the qrencode tool. The QR code is saved as an 
                             image file and opened automatically using the default image viewer.
                         </p>
-                        <a href="https://github.com/Abhiram-ARS/QR_Code_Tool" target="_blank" class="project-link">View Documentation <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Abhiram-ARS/QR_Code_Tool" target="_blank" class="project-link">View Repository <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
