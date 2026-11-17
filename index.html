@@ -10,10 +10,10 @@
     <style>
         /* --- 0. CSS Variables & Global Reset (Theming) --- */
         :root {
-            --bg-primary: #121212; /* Deep Black */
-            --bg-secondary: #1E1E1E; /* Dark Grey */
-            --text-color: #E0E0E0; /* Light Grey */
-            --accent-color: #00FF00; /* Bright Neon Green */
+            --bg-primary: #121212;
+            --bg-secondary: #1E1E1E;
+            --text-color: #E0E0E0;
+            --accent-color: #00FF00;
             --border-color: #2D2D2D;
             --font-mono: 'Roboto Mono', monospace;
             --font-sans: 'Inter', sans-serif;
@@ -437,22 +437,44 @@
         .cert-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
+            column-gap: 24px;
+            row-gap: 24px;
         }
 
         .cert-card {
+            display: block;
+            width: 100%;
+            position: relative;
             background-color: var(--bg-secondary);
             border: 1px solid var(--border-color);
             border-radius: 8px;
             overflow: hidden;
-            position: relative;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            color: var(--text-color);
+            text-align: left;
+            font: inherit;
+            cursor: pointer;
+        }
+
+        .cert-card:focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 3px;
+        }
+
+        .cert-caption {
+            display: block;
+            min-height: 3.25rem;
+            padding: 10px 14px;
+            color: var(--accent-color);
+            background-color: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-color);
+            font: 700 0.9rem var(--font-mono);
         }
 
         .cert-card img {
             width: 100%;
             height: 200px;
-            object-fit: cover;
+            object-fit: contain;
             display: block;
             transition: transform 0.3s;
             filter: brightness(0.8);
@@ -463,19 +485,65 @@
             filter: brightness(1.0);
         }
 
-        .cert-info {
-            padding: 15px;
-            font-family: var(--font-mono);
+        .cert-modal {
+            width: min(92vw, 1100px);
+            max-width: none;
+            max-height: 92vh;
+            margin: auto;
+            padding: 20px;
+            color: var(--text-color);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
         }
 
-        .cert-info h3 {
+        .cert-modal::backdrop {
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+        .cert-modal img {
+            display: block;
+            max-width: 100%;
+            max-height: calc(92vh - 100px);
+            margin: 0 auto;
+            object-fit: contain;
+        }
+
+        .cert-modal figcaption {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 12px;
+            padding: 10px 14px;
             color: var(--accent-color);
-            font-size: 1rem;
-            margin-bottom: 5px;
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            font: 700 1rem var(--font-mono);
         }
 
-        .cert-info p {
-            font-size: 0.85rem;
+        .cert-verify {
+            display: inline-block;
+            flex-shrink: 0;
+            padding: 8px 14px;
+            color: var(--bg-primary);
+            background: var(--accent-color);
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+            font: 700 0.9rem var(--font-mono);
+            text-decoration: none;
+        }
+
+        .cert-modal-close {
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            padding: 2px 8px;
+            color: var(--text-color);
+            background: transparent;
+            border: 0;
+            font-size: 1.8rem;
+            cursor: pointer;
         }
 
         .badge-shelf {
@@ -632,6 +700,7 @@
                         I am passionate about Cybersecurity, Scientific Research, and Emerging Technologies, with interests in Network Security, Ethical Hacking, AI Security, Cyber Warfare, Cyber Diplomacy, International Relations, and Geopolitics. I enjoy exploring how technology shapes security at both technical and strategic levels, while continuously strengthening my skills in research methodology, critical analysis, experimentation, and scientific communication. I’m particularly interested in understanding emerging security challenges, investigating meaningful research problems, and developing practical, evidence-based solutions. I also enjoy learning, collaborating, presenting ideas, and contributing to the cybersecurity community.
                     </p>
                     <a href="#projects" class="cta-button">Projects</a>
+                    <a href="#certs" class="cta-button">Certificates</a>
                 </div>
 
                 <div class="profile-photo">
@@ -697,7 +766,7 @@
                 <div class="terminal-header">root@kali:~$ ./run_projects</div>
                 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/educredchain.svg" alt="Blockchain credential verification illustration">
+                    <img class="project-preview" src="web_data/projects/p1.png" alt="Blockchain credential verification illustration">
                     <div>
                         <h3>[01] EduCredChain</h3>
                         <p>// EduCredChain is a secure and tamper-resistant educational credential verification system that integrates Blockchain technology with 
@@ -708,7 +777,7 @@
                 </div>
 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
+                    <img class="project-preview" src="web_data/projects/p2.jpg" alt="Encrypted file and padlock illustration">
                     <div>
                         <h3>[02] Wi-Fi Honey-Pot Simulator</h3>
                         <p>// An ESP32 based project developed to demonstrate the security risks associated with rogue Wi-Fi access points and Evil Twin attacks. The project 
@@ -720,7 +789,7 @@
                 </div>
 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
+                    <img class="project-preview" src="web_data/projects/p3.png" alt="Encrypted file and padlock illustration">
                     <div>
                         <h3>[03] Password Based File Encryption Decryption System : PB-FED</h3>
                         <p>// PB-FED is a Python-based GUI application designed for the secure encryption and decryption of text, image, and binary files using 
@@ -732,7 +801,7 @@
                 </div>
 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/pbfed.svg" alt="Encrypted file and padlock illustration">
+                    <img class="project-preview" src="web_data/projects/p4.png" alt="Encrypted file and padlock illustration">
                     <div>
                         <h3>[04] CDR-IED (Call Detail Record Interpretation and Examination Dashboard)</h3>
                         <p>// CDR-IED is a digital forensic application designed to simplify Call Detail Record analysis by converting raw communication data into meaningful 
@@ -746,7 +815,7 @@
                 
                 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/webhmd.svg" alt="Website integrity and hash verification illustration">
+                    <img class="project-preview" src="web_data/projects/p5.png" alt="Website integrity and hash verification illustration">
                     <div>
                         <h3>[05] Website Hashing for Modification Detection : Web-HMD</h3>
                         <p>// Website Hashing for Modification Detection is a lightweight and practical tool developed to help users detect unauthorized or unexpected 
@@ -758,7 +827,7 @@
                 </div>
 
                 <div class="project-item">
-                    <img class="project-preview" src="web_data/projects/qrtool.svg" alt="QR code generation illustration">
+                    <img class="project-preview" src="web_data/projects/p6.png" alt="QR code generation illustration">
                     <div>
                         <h3>[06] QR-Code Tool</h3>
                         <p>// This is a simple Bash script that allows users to generate QR codes from any text input using the qrencode tool. The QR code is saved as an 
@@ -776,82 +845,38 @@
             <h2>&lt;Certifications & Infographics /&gt;</h2>
             <div class="cert-grid">
                 
-                <div class="cert-card">
-                    <img src="images/Certificates/Certificate_NPTEL.png" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
+                <button class="cert-card" type="button" data-caption="Ethical Hacking (IITKGP), NPTEL" data-verify="https://beta.nptel.ac.in/verify/NOC-GMHM-JRNE-B6E3C">
+                    <span class="cert-caption">Ethical Hacking (IITKGP), NPTEL</span>
+                    <img src="images/Certificates/Certificate_NPTEL.png" alt="NPTEL Online Certification">
+                </button>
                 
-                <div class="cert-card">
-                    <img src="images/Certificates/IntroToCy.png" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
+                <button class="cert-card" type="button" data-caption="Introduction to Cybersecurity, Cisco Networking Academy" data-verify="https://www.credly.com/badges/240dd953-4114-4bab-a673-ef252d366a04">
+                    <span class="cert-caption">Introduction to Cybersecurity, Cisco Networking Academy</span>
+                    <img src="images/Certificates/IntroToCy.png" alt="Introduction to Cybersecurity certificate">
+                </button>
 
-                <div class="cert-card">
-                    <img src="images/Certificates/NetworkingBasics.jpg" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
+                <button class="cert-card" type="button" data-caption="Networking Basics, Cisco Networking Academy" data-verify="https://www.credly.com/badges/6315c716-e8b3-4bbd-ae5b-74d57f9ed006/public_url">
+                    <span class="cert-caption">Networking Basics, Cisco Networking Academy</span>
+                    <img src="images/Certificates/NetworkingBasics.jpg" alt="Networking Basics certificate, Cisco Networking Academy">
+                </button>
+
+                <button class="cert-card" type="button" data-caption="Metasploit from Scratch: Beginner to Professional, Udemy" data-verify="https://www.udemy.com/certificate/UC-9c64e43a-34ae-49f3-9eca-89030e0c7dbd/">
+                    <span class="cert-caption">Metasploit from Scratch: Beginner to Professional, Udemy</span>
+                    <img src="images/Certificates/udemy_metasploit.jpg" alt="Metasploit course certificate">
+                </button>
+                
+                <button class="cert-card" type="button" data-caption="Advent of Cyber 2025, TryHackMe" data-verify="https://tryhackme.com/?badge=ARS.WIZ4RD:advent-of-cyber-2025">
+                    <span class="cert-caption">Advent of Cyber 2025, TryHackMe</span>
+                    <img src="images\Certificates\THM_AdventOfCyber.jpg" alt="TryHackMe certificate">
+                </button>
+
+                <button class="cert-card" type="button" data-caption="Deloitte Cyber Job Simulation, Forage" data-verify="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_6a71ef7a8497bd6cfc24f9b7_1785854168753_completion_certificate.pdf">
+                    <span class="cert-caption">Deloitte Cyber Job Simulation, Forage</span>
+                    <img src="images/Certificates/Forage_jobSimulation_Deloite_cert.jpg" alt="Deloitte Cyber Job Simulation certificate">
+                </button>
 
             </div>
 
-            <div class="cert-grid">
-                
-                <div class="cert-card">
-                    <img src="images/Certificates/udemy_metasploit.jpg" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-                
-                <div class="cert-card">
-                    <img src="images/Certificates/THM-PYDLP9OXL9_page-0001.jpg" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <img src="images/Certificates/Forage_jobSimulation_Deloite_cert.jpg" alt="Certificate Placeholder">
-                    <div class="cert-info">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="badges" class="section-container">
-            <h2>&lt;Badges /&gt;</h2>
-            <div class="badge-shelf">
-                <!-- Replace each badge-art-placeholder with an <img> for your badge artwork. -->
-                <div class="badge-slot">
-                    <div class="badge-art-placeholder"><i class="fas fa-award" aria-hidden="true"></i></div>
-                    <strong>Badge title</strong>
-                    <span>Add badge image and details</span>
-                </div>
-                <div class="badge-slot">
-                    <div class="badge-art-placeholder"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
-                    <strong>Badge title</strong>
-                    <span>Add badge image and details</span>
-                </div>
-                <div class="badge-slot">
-                    <div class="badge-art-placeholder"><i class="fas fa-certificate" aria-hidden="true"></i></div>
-                    <strong>Badge title</strong>
-                    <span>Add badge image and details</span>
-                </div>
-            </div>
         </section>
 
     </main>
@@ -859,6 +884,40 @@
     <footer class="footer-component">
         <p>Built with HTML & CSS (Simulating React) &copy; 2024</p>
     </footer>
+
+    <dialog class="cert-modal" aria-label="Certificate preview">
+        <button class="cert-modal-close" type="button" aria-label="Close certificate preview">&times;</button>
+        <figure>
+            <img src="" alt="">
+            <figcaption>
+                <span class="cert-modal-caption"></span>
+                <a class="cert-verify" href="#" target="_blank" rel="noopener noreferrer">Verify</a>
+            </figcaption>
+        </figure>
+    </dialog>
+
+    <script>
+        const certModal = document.querySelector('.cert-modal');
+        const modalImage = certModal.querySelector('img');
+        const modalCaption = certModal.querySelector('.cert-modal-caption');
+        const verifyLink = certModal.querySelector('.cert-verify');
+
+        document.querySelectorAll('.cert-card').forEach((card) => {
+            card.addEventListener('click', () => {
+                const image = card.querySelector('img');
+                modalImage.src = image.src;
+                modalImage.alt = image.alt;
+                modalCaption.textContent = card.dataset.caption;
+                verifyLink.href = card.dataset.verify;
+                certModal.showModal();
+            });
+        });
+
+        certModal.querySelector('.cert-modal-close').addEventListener('click', () => certModal.close());
+        certModal.addEventListener('click', (event) => {
+            if (event.target === certModal) certModal.close();
+        });
+    </script>
 
 </body>
 </html>
